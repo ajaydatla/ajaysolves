@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #FF6F61;
+    --secondary-color: #333333;
+    --background-color: #F9F9F9;
+    --accent-color: #5BC0BE;
+  }
+/* Animate the "Our Services" heading */
+h2.mb-4 {
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+  }
+  
+  /* Define the slideInLeft animation */
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  body {
+    background-color: #f8f8f8;
+  }
+  
+  /* Header */
+  .navbar {
+    background-color: #43aa8b;
+  }
+  
+  /* Call to action */
+  .cta {
+    background-color: #f4a261;
+    color: #fff;
+  }
+  
+  .cta:hover {
+    background-color: #e76f51;
+  }
+  
+  /* Services */
+  .service-card {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-card .card-title {
+    color: #43aa8b;
+  }
+  
+  .service-card .card-text {
+    color: #6c757d;
+  }
+  
+  .service-card .btn-primary {
+    background-color: #f4a261;
+    border-color: #f4a261;
+  }
+  
+  .service-card .btn-primary:hover {
+    background-color: #e76f51;
+    border-color: #e76f51;
+  }
+  .cta .btn-primary {
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+          
